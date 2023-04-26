@@ -3,8 +3,6 @@ on:
   push:
     branches: [master]
     paths-ignore: [README.md]
-  release:
-    types: [published]
 defaults:
   run:
     shell: bash
